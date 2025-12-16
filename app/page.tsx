@@ -1,7 +1,5 @@
-"use client"
+import Dashboard from "@/pages/dashboard"
 
-import { InteractiveMapView } from "../client/src/components/interactive-map-view"
-
-export default function SyntheticV0PageForDeployment() {
-  return <InteractiveMapView />
+export default function Page() {
+  return <Dashboard />
 }
